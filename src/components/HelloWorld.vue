@@ -35,12 +35,24 @@
         </div>
       </li>
     </ul>
-    <h3>TMan Services</h3>
+    <h3>Service Code</h3>
     <ul>
-      <li><a :href="js.repo" target="_blank" rel="noopener">JavaScript</a></li>
-      <li><a :href="java.repo" target="_blank" rel="noopener">Java</a></li>
-      <li><a :href="python.repo" target="_blank" rel="noopener">Python</a></li>
-      <li><a :href="go.repo" target="_blank" rel="noopener">Go</a></li>
+      <li>
+        <i class="el-icon-cold-drink"></i>
+        <a :href="js.repo" target="_blank" rel="noopener">JavaScript</a>
+      </li>
+      <li>
+        <i class="el-icon-grape"></i>
+        <a :href="java.repo" target="_blank" rel="noopener">Java</a>
+      </li>
+      <li>
+        <i class="el-icon-cherry"></i>
+        <a :href="python.repo" target="_blank" rel="noopener">Python</a>
+      </li>
+      <li>
+        <i class="el-icon-lollipop"></i>
+        <a :href="go.repo" target="_blank" rel="noopener">Go</a>
+      </li>
     </ul>
   </div>
 </template>
