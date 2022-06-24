@@ -110,7 +110,7 @@ export default {
       axios.get(this.java.api)
         .then((response) => {
           console.log(response)
-          if ( response.data.Status == "Healthy" ) {
+          if ( response.data.status == "healthy" ) {
             console.log('\tJava Service is UP')
             this.java.status.cls = this.svcUp.cls
             this.java.status.txt = this.svcUp.txt
@@ -131,7 +131,7 @@ export default {
       axios.get(this.python.api)
         .then((response) => {
           console.log(response)
-          if ( response.data.Status == "Healthy" ) {
+          if ( response.data.status == "healthy" ) {
             console.log('\tPython Service is UP')
             this.python.status.cls = this.svcUp.cls
             this.python.status.txt = this.svcUp.txt
@@ -152,7 +152,7 @@ export default {
       axios.get(this.go.api)
         .then((response) => {
           console.log(response)
-          if ( response.data.Status == "Healthy" ) {
+          if ( response.data.status == "healthy" ) {
             console.log('\tGo Service is UP')
             this.go.status.cls = this.svcUp.cls
             this.go.status.txt = this.svcUp.txt
